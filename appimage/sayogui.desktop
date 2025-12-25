@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Sayo Keys
+Exec=sayogui
+Icon=sayogui
+Categories=Utility;
+Terminal=false

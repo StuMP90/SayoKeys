@@ -1,0 +1,19 @@
+[project]
+name = "sayoctl"
+version = "0.1.0"
+description = "CLI to manage settings on Sayobot Sayo keyboards"
+requires-python = ">=3.10"
+dependencies = [
+  "hid",
+  "PySide6",
+  "typer",
+  "rich",
+]
+
+[project.scripts]
+sayoctl = "sayoctl.cli:app"
+sayogui = "sayoctl.gui:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

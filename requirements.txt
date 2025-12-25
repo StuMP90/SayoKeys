@@ -1,0 +1,4 @@
+hid
+PySide6
+typer
+rich

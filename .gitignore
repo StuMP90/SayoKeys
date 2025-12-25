@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# PyInstaller
+*.spec
+
+# AppImage outputs
+*.AppImage
+
+# Misc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
