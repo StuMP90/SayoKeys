@@ -1,6 +1,20 @@
 # sayoctl
 
-CLI to manage settings on Sayobot Sayo keyboards over USB HID.
+sayoctl is a CLI and GUI to manage settings on Sayobot Sayo keyboards over USB HID.
+
+## GUI
+
+The GUI is a PySide6 desktop app (`sayogui`) built on top of the same device/protocol code as the CLI.
+
+It supports:
+
+- Selecting a connected device
+- Viewing/changing the device name
+- Editing key mappings
+- Viewing/editing macro names
+- Viewing/editing programmable strings
+
+On Linux, prefer using udev rules (see below) so you can run the GUI without `sudo`.
 
 ## Install
 
